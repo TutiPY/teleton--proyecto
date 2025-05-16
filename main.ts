@@ -5,7 +5,7 @@ input.onGesture(Gesture.TiltLeft, function () {
     basic.showArrow(ArrowNames.West)
 })
 basic.forever(function () {
-    if (input.isGesture(Gesture.TiltLeft)) {
+    if (input.isGesture(Gesture.LogoDown)) {
         basic.showIcon(IconNames.Yes)
         basic.pause(100)
         music.play(music.stringPlayable("E D E C G E F D ", 300), music.PlaybackMode.UntilDone)
